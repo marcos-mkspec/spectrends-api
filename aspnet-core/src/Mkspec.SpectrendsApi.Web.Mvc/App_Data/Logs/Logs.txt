@@ -1,0 +1,1024 @@
+DEBUG 2020-04-13 11:24:41,980 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-04-13 11:24:53,506 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-04-13 11:24:53,534 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Mkspec.SpectrendsApi.Web.Startup.SpectrendsApiWebMvcModule, Mkspec.SpectrendsApi.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:24:53,541 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Mkspec.SpectrendsApi.SpectrendsApiWebCoreModule, Mkspec.SpectrendsApi.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:24:53,542 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Mkspec.SpectrendsApi.SpectrendsApiApplicationModule, Mkspec.SpectrendsApi.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:24:53,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Mkspec.SpectrendsApi.SpectrendsApiCoreModule, Mkspec.SpectrendsApi.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:24:53,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:24:53,544 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:24:53,544 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:24:53,545 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:24:53,546 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Mkspec.SpectrendsApi.EntityFrameworkCore.SpectrendsApiEntityFrameworkModule, Mkspec.SpectrendsApi.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:24:53,548 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:24:53,548 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:24:53,549 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:24:53,549 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:24:53,550 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:24:53,551 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:24:53,556 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-04-13 11:25:00,997 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-04-13 11:25:00,998 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-04-13 11:25:00,998 [1    ] o.Configuration.LanguageManagementConfig - Converted SpectrendsApi (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-04-13 11:25:00,998 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-04-13 11:25:19,878 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Mkspec.SpectrendsApi.EntityFrameworkCore.SpectrendsApiDbContext, Mkspec.SpectrendsApi.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:25:27,739 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-04-13 11:25:27,832 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-04-13 11:25:27,860 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-04-13 11:25:27,873 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SpectrendsApi
+DEBUG 2020-04-13 11:25:27,886 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-04-13 11:25:28,697 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-04-13 11:25:28,969 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Mkspec.SpectrendsApi.MultiTenancy.Tenant, Mkspec.SpectrendsApi.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Mkspec.SpectrendsApi.Authorization.Users.User, Mkspec.SpectrendsApi.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-04-13 11:25:30,514 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-04-13 11:25:30,514 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Mkspec.SpectrendsApi.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-04-13 11:25:30,529 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Mkspec.SpectrendsApi.Users.Dto.CreateUserDto
+DEBUG 2020-04-13 11:25:30,531 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Mkspec.SpectrendsApi.Users.Dto.UserDto
+DEBUG 2020-04-13 11:25:30,532 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Mkspec.SpectrendsApi.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-04-13 11:25:30,532 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Mkspec.SpectrendsApi.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-04-13 11:25:30,532 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Mkspec.SpectrendsApi.Roles.Dto.PermissionDto
+DEBUG 2020-04-13 11:25:30,532 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Mkspec.SpectrendsApi.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-04-13 11:25:30,533 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Mkspec.SpectrendsApi.MultiTenancy.Dto.TenantDto
+DEBUG 2020-04-13 11:25:30,533 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Mkspec.SpectrendsApi.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-04-13 11:25:30,533 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Mkspec.SpectrendsApi.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-04-13 11:26:00,169 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-04-13 11:26:39,741 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\marco_b0hr8ab\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+DEBUG 2020-04-13 11:26:39,920 [1    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2020-04-13 11:26:39,923 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-04-13 11:26:39,924 [1    ] , Culture=neutral, PublicKeyToken=null]] - Stop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Mkspec.SpectrendsApi.MultiTenancy.Tenant, Mkspec.SpectrendsApi.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Mkspec.SpectrendsApi.Authorization.Users.User, Mkspec.SpectrendsApi.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-04-13 11:26:39,926 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-04-13 11:26:39,926 [1    ] , Culture=neutral, PublicKeyToken=null]] - WaitToStop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Mkspec.SpectrendsApi.MultiTenancy.Tenant, Mkspec.SpectrendsApi.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Mkspec.SpectrendsApi.Authorization.Users.User, Mkspec.SpectrendsApi.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-04-13 11:26:39,926 [1    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2020-04-13 11:27:23,742 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-04-13 11:27:23,927 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-04-13 11:27:23,992 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Mkspec.SpectrendsApi.Web.Startup.SpectrendsApiWebMvcModule, Mkspec.SpectrendsApi.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:27:23,997 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Mkspec.SpectrendsApi.SpectrendsApiWebCoreModule, Mkspec.SpectrendsApi.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:27:23,998 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Mkspec.SpectrendsApi.SpectrendsApiApplicationModule, Mkspec.SpectrendsApi.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:27:23,999 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Mkspec.SpectrendsApi.SpectrendsApiCoreModule, Mkspec.SpectrendsApi.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:27:24,002 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:27:24,005 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:27:24,005 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:27:24,006 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:27:24,007 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Mkspec.SpectrendsApi.EntityFrameworkCore.SpectrendsApiEntityFrameworkModule, Mkspec.SpectrendsApi.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:27:24,008 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:27:24,009 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:27:24,010 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:27:24,012 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:27:24,013 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:27:24,015 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:27:24,023 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-04-13 11:27:24,342 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-04-13 11:27:24,343 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-04-13 11:27:24,343 [1    ] o.Configuration.LanguageManagementConfig - Converted SpectrendsApi (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-04-13 11:27:24,343 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-04-13 11:27:25,278 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Mkspec.SpectrendsApi.EntityFrameworkCore.SpectrendsApiDbContext, Mkspec.SpectrendsApi.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-04-13 11:27:27,748 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-04-13 11:27:27,836 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-04-13 11:27:27,871 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-04-13 11:27:27,887 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SpectrendsApi
+DEBUG 2020-04-13 11:27:27,905 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-04-13 11:27:28,678 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-04-13 11:27:28,948 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Mkspec.SpectrendsApi.MultiTenancy.Tenant, Mkspec.SpectrendsApi.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Mkspec.SpectrendsApi.Authorization.Users.User, Mkspec.SpectrendsApi.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-04-13 11:27:29,100 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-04-13 11:27:29,100 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Mkspec.SpectrendsApi.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-04-13 11:27:29,118 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Mkspec.SpectrendsApi.Users.Dto.CreateUserDto
+DEBUG 2020-04-13 11:27:29,119 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Mkspec.SpectrendsApi.Users.Dto.UserDto
+DEBUG 2020-04-13 11:27:29,120 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Mkspec.SpectrendsApi.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-04-13 11:27:29,120 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Mkspec.SpectrendsApi.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-04-13 11:27:29,121 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Mkspec.SpectrendsApi.Roles.Dto.PermissionDto
+DEBUG 2020-04-13 11:27:29,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Mkspec.SpectrendsApi.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-04-13 11:27:29,123 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Mkspec.SpectrendsApi.MultiTenancy.Dto.TenantDto
+DEBUG 2020-04-13 11:27:29,123 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Mkspec.SpectrendsApi.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-04-13 11:27:29,123 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Mkspec.SpectrendsApi.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-04-13 11:27:35,396 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-04-13 11:27:36,586 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\marco_b0hr8ab\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-04-13 11:27:37,860 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-04-13 11:27:41,657 [7    ] uthorization.DefaultAuthorizationService - Authorization failed.
+INFO  2020-04-13 11:27:41,673 [7    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2020-04-13 11:27:41,737 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3853.7129ms 302 
+INFO  2020-04-13 11:27:41,810 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2020-04-13 11:27:41,836 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.Web.Controllers.AccountController.Login (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:27:56,843 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller Mkspec.SpectrendsApi.Web.Controllers.AccountController (Mkspec.SpectrendsApi.Web.Mvc).
+INFO  2020-04-13 11:28:09,682 [4    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2020-04-13 11:28:18,269 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/css/all.min.css?v=-N4_V_SbAFiW1MPBCXnfnP9QSN3-Keu-NlB-0ev_YKQ  
+INFO  2020-04-13 11:28:18,292 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/css/adminlte.min.css?v=tDEOZyJ9BuKWB-BOSc6dE4cI0uNznodJMx11eWZ7jJ4  
+INFO  2020-04-13 11:28:18,298 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/animate.css/animate.css?v=gVCm5mRCmW9kVgsSjQ7_5TLtXqvfCoxhdsjE6O1QLm8  
+INFO  2020-04-13 11:28:18,304 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/icheck-bootstrap/icheck-bootstrap.css?v=nGN1DgpDTrAS3DS7E5J0cL-gblWBKAMSoU_LSuY8gu8  
+INFO  2020-04-13 11:28:18,315 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.min.css?v=D9O-28vCF-qJh2qZSFIXxXc30hTED8RmnKeZRyvVEpA  
+INFO  2020-04-13 11:28:18,325 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.css?v=He3QEBKoL_nMXlVsoM7S2C2kjFQqS5L-mgA-F8LpG-U  
+INFO  2020-04-13 11:28:18,328 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/_Layout.css?v=pk1udUQR7bqKUWFxSnrnIl0MM8MH2Wu05p-zpysBQWI  
+INFO  2020-04-13 11:28:18,331 [4    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 7713.0511ms.
+INFO  2020-04-13 11:28:18,339 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.Web.Controllers.AccountController.Login (Mkspec.SpectrendsApi.Web.Mvc) in 21490.7478ms
+INFO  2020-04-13 11:28:18,421 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.Web.Controllers.AccountController.Login (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:28:18,436 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/icheck-bootstrap/icheck-bootstrap.css'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\icheck-bootstrap\icheck-bootstrap.css'
+INFO  2020-04-13 11:28:18,438 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/font-awesome/css/all.min.css'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\font-awesome\css\all.min.css'
+INFO  2020-04-13 11:28:18,455 [19   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/toastr/toastr.css'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\toastr\toastr.css'
+INFO  2020-04-13 11:28:18,470 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 617.0307ms 200 text/css
+INFO  2020-04-13 11:28:18,534 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 826.3172ms 200 text/css
+INFO  2020-04-13 11:28:18,747 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 167.0043ms 200 text/css
+INFO  2020-04-13 11:28:18,859 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/css/adminlte.min.css'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\admin-lte\dist\css\adminlte.min.css'
+INFO  2020-04-13 11:28:18,882 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js?v=pVreZ67fRaATygHF6T-gQtF1NI700W9kzeAivu6au9U  
+INFO  2020-04-13 11:28:18,914 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1048.02ms 200 text/css
+INFO  2020-04-13 11:28:18,992 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/_Layout.css'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\view-resources\Views\Account\_Layout.css'
+INFO  2020-04-13 11:28:19,212 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=xKbbeRspeJ53pjKRA3Bh5ZJLItu8Y58wlf6cER1IiIk  
+INFO  2020-04-13 11:28:19,268 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 701.7864ms 200 text/css
+INFO  2020-04-13 11:28:19,392 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.min.css'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs-ext\famfamfam-flags\dist\sprite\famfamfam-flags.min.css'
+INFO  2020-04-13 11:28:19,409 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/style.css'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\css\style.css'
+INFO  2020-04-13 11:28:19,410 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/block-ui/jquery.blockUI.js?v=oQaw-JJuUcJQ9QVYMcFnPxICDT-hv8-kuxT2FNzTGhc  
+INFO  2020-04-13 11:28:19,414 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 480.6067ms 200 text/css
+INFO  2020-04-13 11:28:19,426 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/spin/spin.js?v=GySbz3oZXNlwoawo5PpYy0iM38B-q3jyi_HLw00uxy0  
+INFO  2020-04-13 11:28:19,609 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1137.2252ms 200 text/css
+INFO  2020-04-13 11:28:19,647 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/block-ui/jquery.blockUI.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\block-ui\jquery.blockUI.js'
+INFO  2020-04-13 11:28:19,671 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 37868.7957ms 200 text/html; charset=utf-8
+INFO  2020-04-13 11:28:19,674 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/spin/jquery.spin.js?v=EG38bUU5b2M64hy9cNAzu_cQBEsiBYsDifOcoHqNd2k  
+INFO  2020-04-13 11:28:19,689 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 391.449ms 200 application/javascript
+INFO  2020-04-13 11:28:19,744 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/spin/spin.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\spin\spin.js'
+INFO  2020-04-13 11:28:19,755 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/sweetalert/sweetalert.min.js?v=KsRuvuRtUVvobe66OFtOQfjP8WA2SzYsmm4VPfMnxms  
+INFO  2020-04-13 11:28:19,760 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/spin/jquery.spin.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs-ext\spin\jquery.spin.js'
+INFO  2020-04-13 11:28:19,766 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery/jquery.js?v=WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU  
+INFO  2020-04-13 11:28:19,774 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 169.0948ms 200 application/javascript
+INFO  2020-04-13 11:28:19,782 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.min.js?v=yNbKY1y6h2rbVcQtf0b8lq4a-xpktyFc3pSYoGAY1qQ  
+INFO  2020-04-13 11:28:19,799 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/sweetalert/sweetalert.min.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\sweetalert\sweetalert.min.js'
+INFO  2020-04-13 11:28:19,811 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=MEOC0fqxBbFCeeJ6VHFuw8-2C710gCRqjbvYcHoBdHU  
+INFO  2020-04-13 11:28:19,820 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/toastr/toastr.min.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\toastr\toastr.min.js'
+INFO  2020-04-13 11:28:19,830 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 180.8768ms 200 application/javascript
+INFO  2020-04-13 11:28:19,838 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 81.1021ms 200 application/javascript
+INFO  2020-04-13 11:28:19,846 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.jquery.js'
+INFO  2020-04-13 11:28:19,866 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 418.2721ms 200 application/javascript
+INFO  2020-04-13 11:28:19,900 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 68.5573ms 200 application/javascript
+INFO  2020-04-13 11:28:20,055 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=i3fsIGh0z3DXDbSa7f6TwsWonuZ8-OwELSrtH1jHbDA  
+INFO  2020-04-13 11:28:20,069 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js?v=qXsDMEfG3xYx1TO9SCGpLfvQPdpKIo0nXVYYfcneIRk  
+INFO  2020-04-13 11:28:20,076 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=djoKib6ssm5DDzbXLe5pD7ayfFg3siaoEk-BFYzQlvI  
+INFO  2020-04-13 11:28:20,086 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.unobtrusive.js?v=XNNC8ESw29iopRLukVRazlP44TxnjGmEQanHJ5kHmtk  
+INFO  2020-04-13 11:28:20,107 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.toastr.js'
+INFO  2020-04-13 11:28:20,281 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=vMuHbqHh635SKL2RG2qsGGCDyHg1yFeGqhPKpS34g4k  
+INFO  2020-04-13 11:28:20,337 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 238.9518ms 200 application/javascript
+INFO  2020-04-13 11:28:20,346 [19   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.spin.js'
+INFO  2020-04-13 11:28:20,517 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery-validate/jquery.validate.unobtrusive.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\jquery-validate\jquery.validate.unobtrusive.js'
+INFO  2020-04-13 11:28:20,602 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/js/adminlte.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\admin-lte\dist\js\adminlte.js'
+INFO  2020-04-13 11:28:20,615 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\bootstrap\dist\js\bootstrap.bundle.js'
+INFO  2020-04-13 11:28:20,617 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 698.4124ms 200 application/javascript
+INFO  2020-04-13 11:28:20,623 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/main.js?v=y-FGKW8d7r1A2Z2v_QII7Rk68Ev5WLMXSkbLMgmVzMo  
+INFO  2020-04-13 11:28:20,669 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 448.6044ms 200 application/javascript
+INFO  2020-04-13 11:28:20,739 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 282.0892ms 200 application/javascript
+INFO  2020-04-13 11:28:20,754 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/localization/messages_pt_BR.min.js?v=XPVq9FOi0rZTuUUM1OBNwLj_HPADmvgTT-KSuoDqjjw  
+INFO  2020-04-13 11:28:20,770 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1981.8438ms 200 application/javascript
+INFO  2020-04-13 11:28:20,782 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/main.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\js\main.js'
+INFO  2020-04-13 11:28:20,800 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637223740489504039  
+INFO  2020-04-13 11:28:20,854 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 252.6292ms 200 application/javascript
+INFO  2020-04-13 11:28:20,862 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery-validate/localization/messages_pt_BR.min.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\jquery-validate\localization\messages_pt_BR.min.js'
+INFO  2020-04-13 11:28:20,869 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.js?v=KxhHl3HYb-UQucT7TN2ewhzzgV_WwxRaGwGaSiT8xzM  
+INFO  2020-04-13 11:28:20,877 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 188.7083ms 200 application/javascript
+INFO  2020-04-13 11:28:20,936 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/moment/moment-with-locales.js?v=dgFbqbQVzjkZPQxWd8PBtzGiRBhChc4I2wO_q_s-Xeo  
+INFO  2020-04-13 11:28:20,945 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-04-13 11:28:20,964 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637223740489504039  
+INFO  2020-04-13 11:28:20,972 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\view-resources\Views\Account\Login.js'
+INFO  2020-04-13 11:28:20,974 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637223740972693250  
+INFO  2020-04-13 11:28:20,985 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 115.0026ms 200 application/javascript
+INFO  2020-04-13 11:28:20,990 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-13 11:28:21,004 [19   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-04-13 11:28:21,011 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.blockUI.js'
+INFO  2020-04-13 11:28:21,015 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/abp.js?v=3lLIPNQoGBxv9DWxtKwnvHr7Wlov-D0jo-NtjAdTenA  
+INFO  2020-04-13 11:28:21,025 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2020-04-13 11:28:21,030 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/moment/moment-with-locales.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\moment\moment-with-locales.js'
+INFO  2020-04-13 11:28:21,038 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1198.6306ms 200 application/javascript
+INFO  2020-04-13 11:28:21,044 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 155.7443ms 200 application/javascript
+INFO  2020-04-13 11:28:21,067 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 63.4436ms 200 application/javascript
+INFO  2020-04-13 11:28:21,080 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/abp.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\abp.js'
+INFO  2020-04-13 11:28:21,130 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.js?v=xLhce0FUawd11QSwrvXSwST0oHhOolNoH9cUXAcsIAg  
+INFO  2020-04-13 11:28:21,164 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=Ta7OYgm62iNXMvVrH3f4y3WqUbGsHGBNvt0Zu0eIKtk  
+INFO  2020-04-13 11:28:21,184 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 73.2966ms 200 application/javascript
+INFO  2020-04-13 11:28:21,208 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery-validate/jquery.validate.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\jquery-validate\jquery.validate.js'
+INFO  2020-04-13 11:28:21,222 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.sweet-alert.js'
+INFO  2020-04-13 11:28:21,234 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 134.8182ms 200 application/javascript
+INFO  2020-04-13 11:28:21,252 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 148.769ms 200 application/javascript
+INFO  2020-04-13 11:28:21,261 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2020-04-13 11:28:21,405 [18   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-04-13 11:28:21,715 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/webfonts/fa-solid-900.woff2  
+INFO  2020-04-13 11:28:22,038 [22   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery/jquery.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\jquery\jquery.js'
+INFO  2020-04-13 11:28:22,120 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.png'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs-ext\famfamfam-flags\dist\sprite\famfamfam-flags.png'
+INFO  2020-04-13 11:28:23,866 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2283.1568ms 200 application/javascript
+INFO  2020-04-13 11:28:23,891 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 909.2371ms 200 image/png
+INFO  2020-04-13 11:28:23,908 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/animate.css/animate.css'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\animate.css\animate.css'
+INFO  2020-04-13 11:28:23,917 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/font-awesome/webfonts/fa-solid-900.woff2'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\font-awesome\webfonts\fa-solid-900.woff2'
+INFO  2020-04-13 11:28:23,924 [19   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-04-13 11:28:23,930 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2771.1489ms 200 font/woff2
+INFO  2020-04-13 11:28:23,952 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6091.754ms 200 text/css
+INFO  2020-04-13 11:28:23,960 [19   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 2946.5471ms
+INFO  2020-04-13 11:28:23,981 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-04-13 11:28:24,027 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3207.0304ms 200 application/x-javascript; charset=utf-8
+INFO  2020-04-13 11:28:24,071 [18   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-04-13 11:28:24,086 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 2642.6283ms
+INFO  2020-04-13 11:28:24,091 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-13 11:28:24,097 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3382.0393ms 200 application/x-javascript
+INFO  2020-04-13 11:30:08,111 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+INFO  2020-04-13 11:30:08,136 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.Web.Controllers.AccountController.Login (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:30:08,249 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] Login(Mkspec.SpectrendsApi.Web.Models.Account.LoginViewModel, System.String, System.String) on controller Mkspec.SpectrendsApi.Web.Controllers.AccountController (Mkspec.SpectrendsApi.Web.Mvc).
+INFO  2020-04-13 11:30:13,093 [8    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2020-04-13 11:30:13,276 [26   ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-04-13 11:30:13,440 [26   ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.Web.Controllers.AccountController.Login (Mkspec.SpectrendsApi.Web.Mvc) in 5117.8993ms
+INFO  2020-04-13 11:30:13,585 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.Web.Controllers.AccountController.Login (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:30:13,808 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5521.6722ms 200 application/json; charset=utf-8
+INFO  2020-04-13 11:30:14,299 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-04-13 11:30:14,673 [27   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-04-13 11:30:14,767 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.Web.Controllers.HomeController.Index (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:30:14,826 [27   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller Mkspec.SpectrendsApi.Web.Controllers.HomeController (Mkspec.SpectrendsApi.Web.Mvc).
+INFO  2020-04-13 11:30:15,209 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-04-13 11:30:24,530 [28   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 9471.3776ms.
+INFO  2020-04-13 11:30:24,537 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/css/adminlte.min.css?v=tDEOZyJ9BuKWB-BOSc6dE4cI0uNznodJMx11eWZ7jJ4  
+INFO  2020-04-13 11:30:24,544 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.css?v=pk1udUQR7bqKUWFxSnrnIl0MM8MH2Wu05p-zpysBQWI  
+INFO  2020-04-13 11:30:24,548 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/css/all.min.css?v=-N4_V_SbAFiW1MPBCXnfnP9QSN3-Keu-NlB-0ev_YKQ  
+INFO  2020-04-13 11:30:24,551 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/img/avatar5.png  
+INFO  2020-04-13 11:30:24,554 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/logo.png  
+INFO  2020-04-13 11:30:24,568 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/_Layout.css'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\view-resources\Views\Shared\_Layout.css'
+INFO  2020-04-13 11:30:24,569 [28   ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.Web.Controllers.HomeController.Index (Mkspec.SpectrendsApi.Web.Mvc) in 9732.5122ms
+INFO  2020-04-13 11:30:24,577 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.Web.Controllers.HomeController.Index (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:30:24,585 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 41.7392ms 200 text/css
+INFO  2020-04-13 11:30:24,598 [26   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/img/avatar5.png'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\admin-lte\dist\img\avatar5.png'
+INFO  2020-04-13 11:30:24,602 [25   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/admin-lte/dist/css/adminlte.min.css was not modified
+INFO  2020-04-13 11:30:24,611 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10601.3042ms 200 text/html; charset=utf-8
+INFO  2020-04-13 11:30:24,622 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 81.8437ms 304 text/css
+INFO  2020-04-13 11:30:24,690 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/font-awesome/css/all.min.css was not modified
+INFO  2020-04-13 11:30:24,723 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/buttons.bootstrap4.min.css?v=1O-iXoRdSUgNTj7NzmW-C3dpRaxiGn1afSX-qfRCV4Q  
+INFO  2020-04-13 11:30:24,771 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 176.6399ms 304 text/css
+INFO  2020-04-13 11:30:24,780 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/animate.css/animate.css?v=gVCm5mRCmW9kVgsSjQ7_5TLtXqvfCoxhdsjE6O1QLm8  
+INFO  2020-04-13 11:30:24,791 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 75.4172ms 200 image/png
+INFO  2020-04-13 11:30:24,794 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/webfonts/fa-solid-900.woff2  
+INFO  2020-04-13 11:30:24,805 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/css/buttons.bootstrap4.min.css'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\datatables\css\buttons.bootstrap4.min.css'
+INFO  2020-04-13 11:30:24,818 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/font-awesome/webfonts/fa-solid-900.woff2 was not modified
+INFO  2020-04-13 11:30:24,833 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 196.2062ms 200 text/css
+INFO  2020-04-13 11:30:24,846 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 44.4257ms 304 font/woff2
+INFO  2020-04-13 11:30:24,858 [25   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/animate.css/animate.css was not modified
+INFO  2020-04-13 11:30:24,886 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/dataTables.bootstrap4.min.css?v=F-DaKAClQut87heMIC6oThARMuWne8-WzxIDT7jXuPA  
+INFO  2020-04-13 11:30:24,917 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 240.6772ms 304 text/css
+INFO  2020-04-13 11:30:24,937 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/webfonts/fa-regular-400.woff2  
+INFO  2020-04-13 11:30:24,941 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.bootstrap4.min.js?v=hJ44ymhBmRPJKIaKRf3DSX5uiFEZ9xB_qx8cNbJvIMU  
+INFO  2020-04-13 11:30:24,960 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/responsive.bootstrap4.min.js?v=aXVO47Rb7s58FhMTCwbM39en_1XcmzGkClRzBe5txKs  
+INFO  2020-04-13 11:30:24,978 [26   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/css/dataTables.bootstrap4.min.css'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\datatables\css\dataTables.bootstrap4.min.css'
+INFO  2020-04-13 11:30:24,988 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/dataTables.bootstrap4.min.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\datatables\js\dataTables.bootstrap4.min.js'
+INFO  2020-04-13 11:30:24,995 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/font-awesome/webfonts/fa-regular-400.woff2'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\font-awesome\webfonts\fa-regular-400.woff2'
+INFO  2020-04-13 11:30:24,998 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 100.55ms 200 application/javascript
+INFO  2020-04-13 11:30:25,010 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/responsive.bootstrap4.min.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\datatables\js\responsive.bootstrap4.min.js'
+INFO  2020-04-13 11:30:25,015 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 105.6011ms 200 font/woff2
+INFO  2020-04-13 11:30:25,038 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 86.7091ms 200 application/javascript
+INFO  2020-04-13 11:30:25,049 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 139.5417ms 200 text/css
+INFO  2020-04-13 11:30:25,067 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/icheck-bootstrap/icheck-bootstrap.css?v=nGN1DgpDTrAS3DS7E5J0cL-gblWBKAMSoU_LSuY8gu8  
+INFO  2020-04-13 11:30:25,096 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.buttons.js?v=5QXxQoJP_O_KTBOFw8kshfIczGGlmZRcR_WjhFKbiZY  
+INFO  2020-04-13 11:30:25,120 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/buttons.bootstrap4.js?v=7tPJL63hI4QnZbV489_5KEpe7k6W5RzPTZkP8m6kzEE  
+INFO  2020-04-13 11:30:25,190 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js?v=pVreZ67fRaATygHF6T-gQtF1NI700W9kzeAivu6au9U  
+INFO  2020-04-13 11:30:25,199 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.responsive.min.js?v=7Tbik5KSODuGiOLIOFfhP47p5UK6h1wzw8CFSI_TKhc  
+INFO  2020-04-13 11:30:25,206 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/dataTables.buttons.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\datatables\js\dataTables.buttons.js'
+INFO  2020-04-13 11:30:25,215 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/buttons.bootstrap4.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\datatables\js\buttons.bootstrap4.js'
+INFO  2020-04-13 11:30:25,216 [25   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/bootstrap/dist/js/bootstrap.bundle.js was not modified
+INFO  2020-04-13 11:30:25,225 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 161.4041ms 200 application/javascript
+INFO  2020-04-13 11:30:25,234 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 136.8497ms 200 application/javascript
+INFO  2020-04-13 11:30:25,249 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 168.1775ms 304 application/javascript
+INFO  2020-04-13 11:30:25,264 [26   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/dataTables.responsive.min.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\datatables\js\dataTables.responsive.min.js'
+INFO  2020-04-13 11:30:25,279 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/signalr/dist/browser/signalr.js?v=s5ortbhB2C3h17nHMtXwbCSN9YncRIZH6XrFTSO9vmk  
+INFO  2020-04-13 11:30:25,315 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=djoKib6ssm5DDzbXLe5pD7ayfFg3siaoEk-BFYzQlvI  
+INFO  2020-04-13 11:30:25,319 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js?v=qXsDMEfG3xYx1TO9SCGpLfvQPdpKIo0nXVYYfcneIRk  
+INFO  2020-04-13 11:30:25,351 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js was not modified
+INFO  2020-04-13 11:30:25,843 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 174.9624ms 304 application/javascript
+INFO  2020-04-13 11:30:25,882 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/admin-lte/dist/js/adminlte.js was not modified
+INFO  2020-04-13 11:30:25,905 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/signalr/dist/browser/signalr.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\signalr\dist\browser\signalr.js'
+INFO  2020-04-13 11:30:25,912 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=MEOC0fqxBbFCeeJ6VHFuw8-2C710gCRqjbvYcHoBdHU  
+INFO  2020-04-13 11:30:25,917 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 595.7617ms 304 application/javascript
+INFO  2020-04-13 11:30:25,924 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 659.9745ms 200 application/javascript
+INFO  2020-04-13 11:30:25,941 [25   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js was not modified
+INFO  2020-04-13 11:30:26,001 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 164.6259ms 200 application/javascript
+INFO  2020-04-13 11:30:26,092 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=i3fsIGh0z3DXDbSa7f6TwsWonuZ8-OwELSrtH1jHbDA  
+INFO  2020-04-13 11:30:26,147 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 55.8211ms 304 application/javascript
+INFO  2020-04-13 11:30:26,147 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=vMuHbqHh635SKL2RG2qsGGCDyHg1yFeGqhPKpS34g4k  
+INFO  2020-04-13 11:30:26,155 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js was not modified
+INFO  2020-04-13 11:30:26,162 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js?v=7OzpM5utNWYP8ne_218zbUCD3Xj_R1GqM6AzwpgQktg  
+INFO  2020-04-13 11:30:26,175 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/abp.js?v=3lLIPNQoGBxv9DWxtKwnvHr7Wlov-D0jo-NtjAdTenA  
+INFO  2020-04-13 11:30:26,187 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js was not modified
+INFO  2020-04-13 11:30:26,189 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 220.38ms 304 application/javascript
+INFO  2020-04-13 11:30:26,197 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.signalr-client.js'
+INFO  2020-04-13 11:30:26,211 [26   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/abp-web-resources/Abp/Framework/scripts/abp.js was not modified
+INFO  2020-04-13 11:30:26,219 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 117.7133ms 304 application/javascript
+INFO  2020-04-13 11:30:26,241 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/push.js/push.js?v=p73-snCYhrDo9U6USD9P19LnY1EwAe4-VzQxj_kNyBE  
+INFO  2020-04-13 11:30:26,242 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 46.959ms 200 application/javascript
+INFO  2020-04-13 11:30:26,275 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 199.6884ms 304 application/javascript
+INFO  2020-04-13 11:30:26,343 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/abp.dataTable.js?v=NEaRZwQq3VIk9Kn90kVZDSFofIBDVCiobxBH3sHX1sg  
+INFO  2020-04-13 11:30:26,354 [28   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/icheck-bootstrap/icheck-bootstrap.css was not modified
+INFO  2020-04-13 11:30:26,364 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637223740489504039  
+INFO  2020-04-13 11:30:26,386 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/push.js/push.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\push.js\push.js'
+INFO  2020-04-13 11:30:26,393 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=Ta7OYgm62iNXMvVrH3f4y3WqUbGsHGBNvt0Zu0eIKtk  
+INFO  2020-04-13 11:30:26,407 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/abp.dataTable.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\js\abp.dataTable.js'
+INFO  2020-04-13 11:30:26,424 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 194.1618ms 200 application/javascript
+INFO  2020-04-13 11:30:26,529 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 148.6491ms 200 application/javascript
+INFO  2020-04-13 11:30:26,594 [26   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js was not modified
+INFO  2020-04-13 11:30:26,671 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-13 11:30:26,716 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.unobtrusive.js?v=XNNC8ESw29iopRLukVRazlP44TxnjGmEQanHJ5kHmtk  
+INFO  2020-04-13 11:30:26,744 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 265.3132ms 304 application/javascript
+INFO  2020-04-13 11:30:26,759 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-04-13 11:30:26,765 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/jquery-validate/jquery.validate.unobtrusive.js was not modified
+INFO  2020-04-13 11:30:26,773 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1681.9786ms 304 text/css
+INFO  2020-04-13 11:30:26,780 [27   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/logo.png'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\img\logo.png'
+INFO  2020-04-13 11:30:26,792 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 259.1513ms 304 application/javascript
+INFO  2020-04-13 11:30:26,794 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/chartjs/dist/Chart.js?v=nZaxPHA2uAaquixjSDX19TmIlbRNCOrf5HO1oHl5p70  
+INFO  2020-04-13 11:30:26,798 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2256.7153ms 200 image/png
+INFO  2020-04-13 11:30:26,804 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/localization/messages_pt_BR.min.js?v=XPVq9FOi0rZTuUUM1OBNwLj_HPADmvgTT-KSuoDqjjw  
+INFO  2020-04-13 11:30:26,814 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637223740489504039  
+INFO  2020-04-13 11:30:26,835 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/jquery-validate/localization/messages_pt_BR.min.js was not modified
+INFO  2020-04-13 11:30:26,850 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-04-13 11:30:26,860 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.js?v=xLhce0FUawd11QSwrvXSwST0oHhOolNoH9cUXAcsIAg  
+INFO  2020-04-13 11:30:26,866 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-04-13 11:30:26,880 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 60.695ms 304 application/javascript
+INFO  2020-04-13 11:30:26,937 [28   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/jquery-validate/jquery.validate.js was not modified
+INFO  2020-04-13 11:30:26,995 [27   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-04-13 11:30:27,035 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 107.6233ms 304 application/javascript
+INFO  2020-04-13 11:30:27,061 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Home/Index.js?v=K0D6HsrS69XXLRtWKoTtWGYinGZNmmZF6gpiRobQkK4  
+INFO  2020-04-13 11:30:27,069 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/jquery.dataTables.min.js?v=LXQzPhL1IRyKkA7HpCOBi8I-OC8HqzHUYkjK8S-LKTs  
+INFO  2020-04-13 11:30:27,074 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Home/Index.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\view-resources\Views\Home\Index.js'
+INFO  2020-04-13 11:30:27,084 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 47.9001ms 200 application/javascript
+INFO  2020-04-13 11:30:27,102 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/responsive.bootstrap4.min.css?v=QrpUliTHPwNNlphA-wNV-zRWVltgDT6Eg0cXVAB04hI  
+INFO  2020-04-13 11:30:27,202 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 134.2476ms
+INFO  2020-04-13 11:30:27,295 [28   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/css/responsive.bootstrap4.min.css'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\datatables\css\responsive.bootstrap4.min.css'
+INFO  2020-04-13 11:30:27,296 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-13 11:30:27,317 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 215.6895ms 200 text/css
+INFO  2020-04-13 11:30:27,351 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 959.4712ms 200 application/x-javascript
+INFO  2020-04-13 11:30:28,070 [28   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/datatables/js/jquery.dataTables.min.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\datatables\js\jquery.dataTables.min.js'
+INFO  2020-04-13 11:30:28,180 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1008.4095ms 200 application/javascript
+INFO  2020-04-13 11:30:28,612 [28   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/chartjs/dist/Chart.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\libs\chartjs\dist\Chart.js'
+INFO  2020-04-13 11:30:29,233 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1831.4406ms 200 application/javascript
+INFO  2020-04-13 11:30:29,307 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate  0
+INFO  2020-04-13 11:30:29,347 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-04-13 11:30:29,352 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-04-13 11:30:29,386 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 2355.2078ms
+INFO  2020-04-13 11:30:29,567 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-04-13 11:30:29,684 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2763.9921ms 200 application/x-javascript; charset=utf-8
+INFO  2020-04-13 11:30:30,145 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-04-13 11:30:30,344 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 912.2601ms 200 application/json
+INFO  2020-04-13 11:30:30,787 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=CJEQWV9jWNGq1wqMj2sCQg  
+INFO  2020-04-13 11:30:31,126 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-04-13 11:30:32,173 [26   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"CJEQWV9jWNGq1wqMj2sCQg","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-04-13T11:30:32.1488108-03:00","Properties":{}}
+DEBUG 2020-04-13 11:30:32,209 [26   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: CJEQWV9jWNGq1wqMj2sCQg
+INFO  2020-04-13 11:30:41,792 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Tenants  
+INFO  2020-04-13 11:30:41,820 [25   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-04-13 11:30:41,833 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.Web.Controllers.TenantsController.Index (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:30:41,847 [25   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Tenants", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller Mkspec.SpectrendsApi.Web.Controllers.TenantsController (Mkspec.SpectrendsApi.Web.Mvc).
+INFO  2020-04-13 11:30:44,335 [27   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-04-13 11:30:48,032 [28   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 3557.7608ms.
+INFO  2020-04-13 11:30:48,948 [28   ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.Web.Controllers.TenantsController.Index (Mkspec.SpectrendsApi.Web.Mvc) in 6185.5673ms
+INFO  2020-04-13 11:30:49,134 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637223740489504039  
+INFO  2020-04-13 11:30:49,164 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Tenants/Index.js?v=eZPyBwK9c25CdKyUNdgFnWNqiYNn9DgxS7O2o-lemuw  
+DEBUG 2020-04-13 11:30:49,185 [8    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: CJEQWV9jWNGq1wqMj2sCQg
+INFO  2020-04-13 11:30:49,199 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637223740489504039  
+INFO  2020-04-13 11:30:49,219 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-13 11:30:49,282 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Tenants/Index.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\view-resources\Views\Tenants\Index.js'
+INFO  2020-04-13 11:30:49,324 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-04-13 11:30:49,357 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1153.5225ms 200 application/javascript
+INFO  2020-04-13 11:30:49,380 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-04-13 11:30:49,393 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-04-13 11:30:49,424 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.Web.Controllers.TenantsController.Index (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:30:49,448 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 68.9441ms
+INFO  2020-04-13 11:30:49,503 [26   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-04-13 11:30:49,678 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-13 11:30:49,763 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7650.7765ms 200 text/html; charset=utf-8
+INFO  2020-04-13 11:30:49,768 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1545.5165ms 200 application/x-javascript
+INFO  2020-04-13 11:30:49,776 [26   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-04-13 11:30:49,781 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate  0
+INFO  2020-04-13 11:30:49,859 [26   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 277.8331ms
+INFO  2020-04-13 11:30:49,923 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-04-13 11:30:50,141 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-04-13 11:30:50,146 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-04-13 11:30:50,358 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-04-13 11:30:50,611 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19852.5269ms 101 
+INFO  2020-04-13 11:30:50,793 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=1bCUeh1-JoPtmRVRY3UUBg  
+INFO  2020-04-13 11:30:50,854 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2012.3265ms 200 application/x-javascript; charset=utf-8
+INFO  2020-04-13 11:30:50,956 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-04-13 11:30:50,995 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1530.5808ms 200 application/json
+DEBUG 2020-04-13 11:30:51,037 [26   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"1bCUeh1-JoPtmRVRY3UUBg","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-04-13T11:30:51.0364706-03:00","Properties":{}}
+DEBUG 2020-04-13 11:30:51,039 [26   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 1bCUeh1-JoPtmRVRY3UUBg
+INFO  2020-04-13 11:30:51,068 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/Tenant/GetAll?keyword=&isActive=&skipCount=0&maxResultCount=10 application/json 
+INFO  2020-04-13 11:30:51,315 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.MultiTenancy.TenantAppService.GetAllAsync (Mkspec.SpectrendsApi.Application)'
+INFO  2020-04-13 11:30:51,720 [27   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Tenant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[Mkspec.SpectrendsApi.MultiTenancy.Dto.TenantDto]] GetAllAsync(Mkspec.SpectrendsApi.MultiTenancy.Dto.PagedTenantResultRequestDto) on controller Mkspec.SpectrendsApi.MultiTenancy.TenantAppService (Mkspec.SpectrendsApi.Application).
+INFO  2020-04-13 11:30:54,957 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-04-13 11:30:55,476 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.MultiTenancy.TenantAppService.GetAllAsync (Mkspec.SpectrendsApi.Application) in 3290.9923ms
+INFO  2020-04-13 11:30:55,509 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.MultiTenancy.TenantAppService.GetAllAsync (Mkspec.SpectrendsApi.Application)'
+INFO  2020-04-13 11:30:55,525 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4485.1803ms 200 application/json; charset=utf-8
+INFO  2020-04-13 11:30:59,284 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+INFO  2020-04-13 11:30:59,316 [7    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-04-13 11:30:59,326 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.Web.Controllers.UsersController.Index (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:30:59,344 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Users", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Index() on controller Mkspec.SpectrendsApi.Web.Controllers.UsersController (Mkspec.SpectrendsApi.Web.Mvc).
+INFO  2020-04-13 11:31:00,913 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+INFO  2020-04-13 11:31:01,825 [8    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-04-13 11:31:01,836 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.Web.Controllers.UsersController.Index (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:31:01,843 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Users", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Index() on controller Mkspec.SpectrendsApi.Web.Controllers.UsersController (Mkspec.SpectrendsApi.Web.Mvc).
+INFO  2020-04-13 11:31:02,366 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-04-13 11:31:02,389 [27   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-04-13 11:31:08,465 [28   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 6274.92ms.
+INFO  2020-04-13 11:31:08,473 [28   ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.Web.Controllers.UsersController.Index (Mkspec.SpectrendsApi.Web.Mvc) in 9121.4645ms
+INFO  2020-04-13 11:31:08,483 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.Web.Controllers.UsersController.Index (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:31:08,969 [27   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 6350.794ms.
+DEBUG 2020-04-13 11:31:08,980 [25   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 1bCUeh1-JoPtmRVRY3UUBg
+INFO  2020-04-13 11:31:09,020 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9206.8291ms 200 text/html; charset=utf-8
+INFO  2020-04-13 11:31:09,208 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Users/Index.js?v=tzdQ5O1JmO5IhO0n04SIAXehanLBEbOc3z2HUtUcrSQ  
+INFO  2020-04-13 11:31:09,587 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637223740489504039  
+INFO  2020-04-13 11:31:09,976 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-04-13 11:31:10,016 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-13 11:31:10,240 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Users/Index.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\view-resources\Views\Users\Index.js'
+INFO  2020-04-13 11:31:10,254 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19572.6172ms 101 
+INFO  2020-04-13 11:31:10,279 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-04-13 11:31:10,296 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1257.6682ms 200 application/javascript
+INFO  2020-04-13 11:31:10,300 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637223740489504039  
+INFO  2020-04-13 11:31:10,373 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate  0
+INFO  2020-04-13 11:31:10,432 [8    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-04-13 11:31:10,435 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-04-13 11:31:10,457 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-04-13 11:31:10,474 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 162.1354ms
+INFO  2020-04-13 11:31:10,490 [26   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-04-13 11:31:10,558 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-13 11:31:10,614 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-04-13 11:31:10,628 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1542.6032ms 200 application/x-javascript
+INFO  2020-04-13 11:31:10,665 [26   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-04-13 11:31:10,926 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 653.3305ms 200 application/json
+INFO  2020-04-13 11:31:11,661 [27   ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.Web.Controllers.UsersController.Index (Mkspec.SpectrendsApi.Web.Mvc) in 7136.2108ms
+INFO  2020-04-13 11:31:11,834 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=rCTFUDOd3lmLyKaLQJHv-w  
+INFO  2020-04-13 11:31:12,300 [26   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 396.3171ms
+INFO  2020-04-13 11:31:12,328 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-04-13 11:31:12,333 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+DEBUG 2020-04-13 11:31:12,529 [9    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"rCTFUDOd3lmLyKaLQJHv-w","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-04-13T11:31:12.5271138-03:00","Properties":{}}
+DEBUG 2020-04-13 11:31:12,532 [9    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: rCTFUDOd3lmLyKaLQJHv-w
+INFO  2020-04-13 11:31:12,665 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.Web.Controllers.UsersController.Index (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:31:13,052 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3364.7926ms 200 application/x-javascript; charset=utf-8
+INFO  2020-04-13 11:31:13,177 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11898.0391ms 200 text/html; charset=utf-8
+INFO  2020-04-13 11:31:13,363 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/User/GetAll?keyword=&skipCount=0&maxResultCount=10 application/json 
+INFO  2020-04-13 11:31:13,898 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.Users.UserAppService.GetAllAsync (Mkspec.SpectrendsApi.Application)'
+INFO  2020-04-13 11:31:13,941 [26   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[Mkspec.SpectrendsApi.Users.Dto.UserDto]] GetAllAsync(Mkspec.SpectrendsApi.Users.Dto.PagedUserResultRequestDto) on controller Mkspec.SpectrendsApi.Users.UserAppService (Mkspec.SpectrendsApi.Application).
+INFO  2020-04-13 11:31:15,268 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-04-13 11:31:15,434 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.Users.UserAppService.GetAllAsync (Mkspec.SpectrendsApi.Application) in 1364.0418ms
+INFO  2020-04-13 11:31:15,475 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.Users.UserAppService.GetAllAsync (Mkspec.SpectrendsApi.Application)'
+INFO  2020-04-13 11:31:15,618 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2258.8647ms 200 application/json; charset=utf-8
+INFO  2020-04-13 11:31:20,000 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/Users/EditModal?userId=1 application/json 0
+INFO  2020-04-13 11:31:20,065 [7    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-04-13 11:31:20,085 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.Web.Controllers.UsersController.EditModal (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:31:20,164 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "EditModal", controller = "Users", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] EditModal(Int64) on controller Mkspec.SpectrendsApi.Web.Controllers.UsersController (Mkspec.SpectrendsApi.Web.Mvc).
+INFO  2020-04-13 11:31:20,826 [28   ] c.ViewFeatures.PartialViewResultExecutor - Executing PartialViewResult, running view _EditModal.
+INFO  2020-04-13 11:31:20,935 [28   ] c.ViewFeatures.PartialViewResultExecutor - Executed PartialViewResult - view _EditModal executed in 286.0288ms.
+INFO  2020-04-13 11:31:20,976 [28   ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.Web.Controllers.UsersController.EditModal (Mkspec.SpectrendsApi.Web.Mvc) in 771.1066ms
+INFO  2020-04-13 11:31:21,020 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.Web.Controllers.UsersController.EditModal (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:31:21,091 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1030.1829ms 200 text/html; charset=utf-8
+INFO  2020-04-13 11:31:21,149 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Users/_EditModal.js?v=Qmj8WgyrzCcfm3p05Smxkd7nf2QP7Ej4wSbZUBEVETU  
+INFO  2020-04-13 11:31:21,342 [27   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Users/_EditModal.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\view-resources\Views\Users\_EditModal.js'
+INFO  2020-04-13 11:31:21,563 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 221.1912ms 200 application/javascript
+INFO  2020-04-13 11:31:36,974 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 PUT http://localhost:62114/api/services/app/User/Update application/json 155
+INFO  2020-04-13 11:31:37,370 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.Users.UserAppService.UpdateAsync (Mkspec.SpectrendsApi.Application)'
+INFO  2020-04-13 11:31:37,458 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Update", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Mkspec.SpectrendsApi.Users.Dto.UserDto] UpdateAsync(Mkspec.SpectrendsApi.Users.Dto.UserDto) on controller Mkspec.SpectrendsApi.Users.UserAppService (Mkspec.SpectrendsApi.Application).
+INFO  2020-04-13 11:31:45,569 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-04-13 11:31:45,898 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.Users.UserAppService.UpdateAsync (Mkspec.SpectrendsApi.Application) in 8115.2137ms
+INFO  2020-04-13 11:31:46,319 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.Users.UserAppService.UpdateAsync (Mkspec.SpectrendsApi.Application)'
+INFO  2020-04-13 11:31:46,561 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9384.7459ms 200 application/json; charset=utf-8
+INFO  2020-04-13 11:31:46,609 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/User/GetAll?keyword=&skipCount=0&maxResultCount=10 application/json 
+INFO  2020-04-13 11:31:46,770 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.Users.UserAppService.GetAllAsync (Mkspec.SpectrendsApi.Application)'
+INFO  2020-04-13 11:31:46,832 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[Mkspec.SpectrendsApi.Users.Dto.UserDto]] GetAllAsync(Mkspec.SpectrendsApi.Users.Dto.PagedUserResultRequestDto) on controller Mkspec.SpectrendsApi.Users.UserAppService (Mkspec.SpectrendsApi.Application).
+INFO  2020-04-13 11:31:48,171 [18   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-04-13 11:31:48,669 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.Users.UserAppService.GetAllAsync (Mkspec.SpectrendsApi.Application) in 1344.3137ms
+INFO  2020-04-13 11:31:48,844 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.Users.UserAppService.GetAllAsync (Mkspec.SpectrendsApi.Application)'
+INFO  2020-04-13 11:31:48,862 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2269.6791ms 200 application/json; charset=utf-8
+INFO  2020-04-13 11:31:54,444 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Roles  
+INFO  2020-04-13 11:31:54,495 [7    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-04-13 11:31:54,510 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.Web.Controllers.RolesController.Index (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:31:54,527 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Roles", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller Mkspec.SpectrendsApi.Web.Controllers.RolesController (Mkspec.SpectrendsApi.Web.Mvc).
+INFO  2020-04-13 11:31:55,423 [26   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-04-13 11:31:58,991 [27   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 3285.1998ms.
+DEBUG 2020-04-13 11:31:59,090 [9    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: rCTFUDOd3lmLyKaLQJHv-w
+INFO  2020-04-13 11:31:59,123 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=vMuHbqHh635SKL2RG2qsGGCDyHg1yFeGqhPKpS34g4k  
+INFO  2020-04-13 11:31:59,159 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js?v=7OzpM5utNWYP8ne_218zbUCD3Xj_R1GqM6AzwpgQktg  
+INFO  2020-04-13 11:31:59,161 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=Ta7OYgm62iNXMvVrH3f4y3WqUbGsHGBNvt0Zu0eIKtk  
+INFO  2020-04-13 11:31:59,186 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-04-13 11:31:59,214 [26   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js was not modified
+INFO  2020-04-13 11:31:59,245 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js was not modified
+INFO  2020-04-13 11:31:59,283 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js was not modified
+INFO  2020-04-13 11:31:59,322 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 297.5434ms 304 application/javascript
+INFO  2020-04-13 11:31:59,327 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 291.1423ms 304 application/javascript
+INFO  2020-04-13 11:31:59,331 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 344.2136ms 304 application/javascript
+INFO  2020-04-13 11:31:59,363 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 48300.0114ms 101 
+INFO  2020-04-13 11:31:59,408 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=MEOC0fqxBbFCeeJ6VHFuw8-2C710gCRqjbvYcHoBdHU  
+INFO  2020-04-13 11:31:59,484 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/signalr/dist/browser/signalr.js?v=s5ortbhB2C3h17nHMtXwbCSN9YncRIZH6XrFTSO9vmk  
+INFO  2020-04-13 11:31:59,487 [26   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js was not modified
+INFO  2020-04-13 11:31:59,617 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/abp.js?v=3lLIPNQoGBxv9DWxtKwnvHr7Wlov-D0jo-NtjAdTenA  
+INFO  2020-04-13 11:31:59,641 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/signalr/dist/browser/signalr.js was not modified
+INFO  2020-04-13 11:31:59,688 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 166.5598ms 304 application/javascript
+INFO  2020-04-13 11:31:59,769 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 298.5232ms 304 application/javascript
+INFO  2020-04-13 11:31:59,837 [28   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/abp-web-resources/Abp/Framework/scripts/abp.js was not modified
+INFO  2020-04-13 11:31:59,853 [27   ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.Web.Controllers.RolesController.Index (Mkspec.SpectrendsApi.Web.Mvc) in 4464.2767ms
+INFO  2020-04-13 11:31:59,857 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js?v=qXsDMEfG3xYx1TO9SCGpLfvQPdpKIo0nXVYYfcneIRk  
+INFO  2020-04-13 11:31:59,865 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 920.8061ms 304 application/javascript
+INFO  2020-04-13 11:31:59,876 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/admin-lte/dist/js/adminlte.js was not modified
+INFO  2020-04-13 11:31:59,907 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.Web.Controllers.RolesController.Index (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:32:00,042 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 62.3757ms 304 application/javascript
+INFO  2020-04-13 11:32:00,198 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Roles/Index.js?v=Fjr6JXo5YNdKo2bfYZoqL3SF9zKetZ25CMRIVLGFE-4  
+INFO  2020-04-13 11:32:00,204 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5480.1876ms 200 text/html; charset=utf-8
+INFO  2020-04-13 11:32:00,238 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=djoKib6ssm5DDzbXLe5pD7ayfFg3siaoEk-BFYzQlvI  
+INFO  2020-04-13 11:32:00,251 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637223740489504039  
+INFO  2020-04-13 11:32:00,258 [28   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Roles/Index.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\view-resources\Views\Roles\Index.js'
+INFO  2020-04-13 11:32:00,284 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/img/avatar5.png  
+INFO  2020-04-13 11:32:00,309 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 387.4299ms 200 application/javascript
+INFO  2020-04-13 11:32:00,324 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-04-13 11:32:00,337 [27   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/admin-lte/dist/img/avatar5.png was not modified
+INFO  2020-04-13 11:32:00,350 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-04-13 11:32:00,352 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 102.1732ms 304 image/png
+INFO  2020-04-13 11:32:00,357 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/css/adminlte.min.css?v=tDEOZyJ9BuKWB-BOSc6dE4cI0uNznodJMx11eWZ7jJ4  
+INFO  2020-04-13 11:32:00,367 [18   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js was not modified
+INFO  2020-04-13 11:32:00,378 [28   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/admin-lte/dist/css/adminlte.min.css was not modified
+INFO  2020-04-13 11:32:00,396 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637223740489504039  
+INFO  2020-04-13 11:32:00,532 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.5249ms 304 text/css
+INFO  2020-04-13 11:32:00,661 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-13 11:32:00,881 [8    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-04-13 11:32:00,976 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js?v=pVreZ67fRaATygHF6T-gQtF1NI700W9kzeAivu6au9U  
+INFO  2020-04-13 11:32:01,129 [27   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-04-13 11:32:01,156 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 620.7069ms
+INFO  2020-04-13 11:32:01,249 [28   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/bootstrap/dist/js/bootstrap.bundle.js was not modified
+INFO  2020-04-13 11:32:01,306 [27   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-04-13 11:32:01,351 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-04-13 11:32:01,371 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 613.7916ms 304 application/javascript
+INFO  2020-04-13 11:32:01,399 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1164.8778ms 200 application/x-javascript; charset=utf-8
+INFO  2020-04-13 11:32:01,444 [27   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 181.3411ms
+INFO  2020-04-13 11:32:01,489 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=i3fsIGh0z3DXDbSa7f6TwsWonuZ8-OwELSrtH1jHbDA  
+INFO  2020-04-13 11:32:01,546 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-13 11:32:01,571 [28   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js was not modified
+INFO  2020-04-13 11:32:01,837 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1193.7762ms 200 application/x-javascript
+INFO  2020-04-13 11:32:02,332 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 180.6179ms 304 application/javascript
+INFO  2020-04-13 11:32:02,598 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate  0
+INFO  2020-04-13 11:32:02,763 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/Role/GetAll?keyword=&skipCount=0&maxResultCount=10 application/json 
+INFO  2020-04-13 11:32:02,798 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1401.9494ms 304 application/javascript
+INFO  2020-04-13 11:32:02,805 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-04-13 11:32:02,816 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.Roles.RoleAppService.GetAllAsync (Mkspec.SpectrendsApi.Application)'
+INFO  2020-04-13 11:32:03,111 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-04-13 11:32:03,147 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=TPeI1mXBj3_UYRTArX6npA  
+INFO  2020-04-13 11:32:03,302 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1277.1046ms 200 application/json
+INFO  2020-04-13 11:32:03,371 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-04-13 11:32:03,412 [27   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[Mkspec.SpectrendsApi.Roles.Dto.RoleDto]] GetAllAsync(Mkspec.SpectrendsApi.Roles.Dto.PagedRoleResultRequestDto) on controller Mkspec.SpectrendsApi.Roles.RoleAppService (Mkspec.SpectrendsApi.Application).
+DEBUG 2020-04-13 11:32:03,434 [18   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"TPeI1mXBj3_UYRTArX6npA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-04-13T11:32:03.4286652-03:00","Properties":{}}
+DEBUG 2020-04-13 11:32:03,449 [18   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: TPeI1mXBj3_UYRTArX6npA
+INFO  2020-04-13 11:32:03,887 [27   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-04-13 11:32:04,050 [27   ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.Roles.RoleAppService.GetAllAsync (Mkspec.SpectrendsApi.Application) in 512.0944ms
+INFO  2020-04-13 11:32:04,132 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.Roles.RoleAppService.GetAllAsync (Mkspec.SpectrendsApi.Application)'
+INFO  2020-04-13 11:32:04,144 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1798.35ms 200 application/json; charset=utf-8
+INFO  2020-04-13 11:32:05,992 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/Roles/EditModal?roleId=1 application/json 0
+INFO  2020-04-13 11:32:06,022 [7    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-04-13 11:32:06,027 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.Web.Controllers.RolesController.EditModal (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:32:06,056 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "EditModal", controller = "Roles", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] EditModal(Int32) on controller Mkspec.SpectrendsApi.Web.Controllers.RolesController (Mkspec.SpectrendsApi.Web.Mvc).
+INFO  2020-04-13 11:32:06,524 [18   ] c.ViewFeatures.PartialViewResultExecutor - Executing PartialViewResult, running view _EditModal.
+INFO  2020-04-13 11:32:06,614 [18   ] c.ViewFeatures.PartialViewResultExecutor - Executed PartialViewResult - view _EditModal executed in 112.9509ms.
+INFO  2020-04-13 11:32:06,630 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.Web.Controllers.RolesController.EditModal (Mkspec.SpectrendsApi.Web.Mvc) in 557.8651ms
+INFO  2020-04-13 11:32:06,640 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.Web.Controllers.RolesController.EditModal (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:32:06,655 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 668.3606ms 200 text/html; charset=utf-8
+INFO  2020-04-13 11:32:06,675 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Roles/_EditModal.js?v=Lv-b7L520VLW_LeYDUhAucxj5ES4DPBzYq4oVPIfgC8  
+INFO  2020-04-13 11:32:06,689 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Roles/_EditModal.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\view-resources\Views\Roles\_EditModal.js'
+INFO  2020-04-13 11:32:06,696 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 21.3432ms 200 application/javascript
+DEBUG 2020-04-13 11:32:20,291 [26   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: TPeI1mXBj3_UYRTArX6npA
+INFO  2020-04-13 11:32:20,330 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-04-13 11:32:20,336 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 17370.179ms 101 
+INFO  2020-04-13 11:32:24,686 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Roles  
+INFO  2020-04-13 11:32:25,496 [26   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-04-13 11:32:25,812 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.Web.Controllers.RolesController.Index (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:32:26,306 [26   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Roles", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller Mkspec.SpectrendsApi.Web.Controllers.RolesController (Mkspec.SpectrendsApi.Web.Mvc).
+INFO  2020-04-13 11:32:28,504 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+INFO  2020-04-13 11:32:29,138 [26   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-04-13 11:32:29,490 [8    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-04-13 11:32:29,690 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.Web.Controllers.UsersController.Index (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:32:31,802 [26   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Users", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Index() on controller Mkspec.SpectrendsApi.Web.Controllers.UsersController (Mkspec.SpectrendsApi.Web.Mvc).
+INFO  2020-04-13 11:32:32,774 [26   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-04-13 11:32:32,822 [18   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 4084.1307ms.
+INFO  2020-04-13 11:32:32,919 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.Web.Controllers.RolesController.Index (Mkspec.SpectrendsApi.Web.Mvc) in 6517.2236ms
+INFO  2020-04-13 11:32:32,957 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.Web.Controllers.RolesController.Index (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:32:33,283 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8544.0206ms 200 text/html; charset=utf-8
+INFO  2020-04-13 11:32:33,575 [26   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 480.6452ms.
+INFO  2020-04-13 11:32:33,878 [26   ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.Web.Controllers.UsersController.Index (Mkspec.SpectrendsApi.Web.Mvc) in 1772.2101ms
+INFO  2020-04-13 11:32:34,174 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637223740489504039  
+INFO  2020-04-13 11:32:34,554 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.Web.Controllers.UsersController.Index (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:32:34,907 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-04-13 11:32:35,109 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7157.1623ms 200 text/html; charset=utf-8
+INFO  2020-04-13 11:32:35,155 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate  0
+INFO  2020-04-13 11:32:35,377 [28   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-04-13 11:32:35,748 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-04-13 11:32:36,029 [28   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-04-13 11:32:36,340 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637223740489504039  
+INFO  2020-04-13 11:32:36,430 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-04-13 11:32:36,436 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=aeM3CHZOmX3t_CjG9LP7dQ  
+INFO  2020-04-13 11:32:36,470 [28   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 855.6503ms
+INFO  2020-04-13 11:32:36,483 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1556.7973ms 200 application/json
+INFO  2020-04-13 11:32:36,492 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-04-13 11:32:36,507 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-04-13 11:32:36,530 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-13 11:32:36,536 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2862.2676ms 200 application/x-javascript; charset=utf-8
+INFO  2020-04-13 11:32:36,542 [18   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+DEBUG 2020-04-13 11:32:36,550 [27   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"aeM3CHZOmX3t_CjG9LP7dQ","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-04-13T11:32:36.5502785-03:00","Properties":{}}
+DEBUG 2020-04-13 11:32:36,554 [27   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: aeM3CHZOmX3t_CjG9LP7dQ
+INFO  2020-04-13 11:32:36,562 [18   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-04-13 11:32:36,855 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 21.0231ms
+INFO  2020-04-13 11:32:37,258 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-13 11:32:37,442 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3605.5273ms 200 application/x-javascript
+INFO  2020-04-13 11:32:37,483 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/User/GetAll?keyword=&skipCount=0&maxResultCount=10 application/json 
+INFO  2020-04-13 11:32:37,524 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.Users.UserAppService.GetAllAsync (Mkspec.SpectrendsApi.Application)'
+INFO  2020-04-13 11:32:37,573 [18   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[Mkspec.SpectrendsApi.Users.Dto.UserDto]] GetAllAsync(Mkspec.SpectrendsApi.Users.Dto.PagedUserResultRequestDto) on controller Mkspec.SpectrendsApi.Users.UserAppService (Mkspec.SpectrendsApi.Application).
+INFO  2020-04-13 11:32:38,062 [18   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-04-13 11:32:38,166 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.Users.UserAppService.GetAllAsync (Mkspec.SpectrendsApi.Application) in 500.3229ms
+INFO  2020-04-13 11:32:38,198 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.Users.UserAppService.GetAllAsync (Mkspec.SpectrendsApi.Application)'
+INFO  2020-04-13 11:32:38,215 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 746.2269ms 200 application/json; charset=utf-8
+INFO  2020-04-13 11:33:31,474 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Users/ChangePassword  
+INFO  2020-04-13 11:33:31,497 [8    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-04-13 11:33:31,500 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.Web.Controllers.UsersController.ChangePassword (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:33:31,510 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "ChangePassword", controller = "Users", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult ChangePassword() on controller Mkspec.SpectrendsApi.Web.Controllers.UsersController (Mkspec.SpectrendsApi.Web.Mvc).
+INFO  2020-04-13 11:33:31,592 [28   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view ChangePassword.
+INFO  2020-04-13 11:33:33,128 [28   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view ChangePassword executed in 1577.3433ms.
+INFO  2020-04-13 11:33:33,142 [28   ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.Web.Controllers.UsersController.ChangePassword (Mkspec.SpectrendsApi.Web.Mvc) in 1618.9831ms
+INFO  2020-04-13 11:33:33,582 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.Web.Controllers.UsersController.ChangePassword (Mkspec.SpectrendsApi.Web.Mvc)'
+DEBUG 2020-04-13 11:33:33,845 [8    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: aeM3CHZOmX3t_CjG9LP7dQ
+INFO  2020-04-13 11:33:33,849 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/css/adminlte.min.css?v=tDEOZyJ9BuKWB-BOSc6dE4cI0uNznodJMx11eWZ7jJ4  
+INFO  2020-04-13 11:33:33,857 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/animate.css/animate.css?v=gVCm5mRCmW9kVgsSjQ7_5TLtXqvfCoxhdsjE6O1QLm8  
+INFO  2020-04-13 11:33:33,875 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-04-13 11:33:33,882 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/css/all.min.css?v=-N4_V_SbAFiW1MPBCXnfnP9QSN3-Keu-NlB-0ev_YKQ  
+INFO  2020-04-13 11:33:33,921 [26   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/admin-lte/dist/css/adminlte.min.css was not modified
+INFO  2020-04-13 11:33:33,950 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/animate.css/animate.css was not modified
+INFO  2020-04-13 11:33:33,985 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 446.4478ms 304 text/css
+INFO  2020-04-13 11:33:33,992 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 57833.7775ms 101 
+INFO  2020-04-13 11:33:34,008 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/font-awesome/css/all.min.css was not modified
+INFO  2020-04-13 11:33:34,021 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/img/avatar5.png  
+INFO  2020-04-13 11:33:34,130 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 668.2833ms 304 text/css
+INFO  2020-04-13 11:33:34,157 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2114.867ms 200 text/html; charset=utf-8
+INFO  2020-04-13 11:33:34,180 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/admin-lte/dist/img/avatar5.png was not modified
+INFO  2020-04-13 11:33:34,187 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/dataTables.bootstrap4.min.css?v=F-DaKAClQut87heMIC6oThARMuWne8-WzxIDT7jXuPA  
+INFO  2020-04-13 11:33:34,201 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 601.0877ms 304 text/css
+INFO  2020-04-13 11:33:34,226 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 207.985ms 304 image/png
+INFO  2020-04-13 11:33:34,229 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/datatables/css/dataTables.bootstrap4.min.css was not modified
+INFO  2020-04-13 11:33:34,215 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/icheck-bootstrap/icheck-bootstrap.css?v=nGN1DgpDTrAS3DS7E5J0cL-gblWBKAMSoU_LSuY8gu8  
+INFO  2020-04-13 11:33:34,236 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637223740489504039  
+INFO  2020-04-13 11:33:34,242 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/buttons.bootstrap4.min.css?v=1O-iXoRdSUgNTj7NzmW-C3dpRaxiGn1afSX-qfRCV4Q  
+INFO  2020-04-13 11:33:34,252 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/responsive.bootstrap4.min.css?v=QrpUliTHPwNNlphA-wNV-zRWVltgDT6Eg0cXVAB04hI  
+INFO  2020-04-13 11:33:34,263 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637223740489504039  
+INFO  2020-04-13 11:33:34,288 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Users/ChangePassword.js?v=unpj1nS89zuL1f6tuyAhP6kvvF8AOwDgIORJ-8aDaT0  
+INFO  2020-04-13 11:33:34,327 [26   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/icheck-bootstrap/icheck-bootstrap.css was not modified
+INFO  2020-04-13 11:33:34,338 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-04-13 11:33:34,351 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 179.4284ms 304 text/css
+INFO  2020-04-13 11:33:34,371 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-13 11:33:34,399 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-04-13 11:33:34,401 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js?v=pVreZ67fRaATygHF6T-gQtF1NI700W9kzeAivu6au9U  
+INFO  2020-04-13 11:33:34,405 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 247.2767ms 304 text/css
+INFO  2020-04-13 11:33:34,419 [26   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/bootstrap/dist/js/bootstrap.bundle.js was not modified
+INFO  2020-04-13 11:33:34,434 [28   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-04-13 11:33:34,453 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/responsive.bootstrap4.min.js?v=aXVO47Rb7s58FhMTCwbM39en_1XcmzGkClRzBe5txKs  
+INFO  2020-04-13 11:33:34,457 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 48.4173ms 304 application/javascript
+INFO  2020-04-13 11:33:34,464 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/datatables/js/responsive.bootstrap4.min.js was not modified
+INFO  2020-04-13 11:33:34,477 [28   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-04-13 11:33:34,495 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 49.752ms 304 application/javascript
+INFO  2020-04-13 11:33:34,505 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.buttons.js?v=5QXxQoJP_O_KTBOFw8kshfIczGGlmZRcR_WjhFKbiZY  
+INFO  2020-04-13 11:33:34,526 [28   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 55.1925ms
+INFO  2020-04-13 11:33:34,571 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/buttons.bootstrap4.js?v=7tPJL63hI4QnZbV489_5KEpe7k6W5RzPTZkP8m6kzEE  
+INFO  2020-04-13 11:33:34,580 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/datatables/js/buttons.bootstrap4.js was not modified
+INFO  2020-04-13 11:33:34,616 [26   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/datatables/js/dataTables.buttons.js was not modified
+INFO  2020-04-13 11:33:34,645 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 153.5768ms 304 application/javascript
+INFO  2020-04-13 11:33:34,652 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 77.3335ms 304 application/javascript
+INFO  2020-04-13 11:33:34,667 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-04-13 11:33:34,671 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/abp.js?v=3lLIPNQoGBxv9DWxtKwnvHr7Wlov-D0jo-NtjAdTenA  
+INFO  2020-04-13 11:33:34,680 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js?v=qXsDMEfG3xYx1TO9SCGpLfvQPdpKIo0nXVYYfcneIRk  
+INFO  2020-04-13 11:33:34,684 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/abp-web-resources/Abp/Framework/scripts/abp.js was not modified
+INFO  2020-04-13 11:33:34,702 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 281.9947ms
+INFO  2020-04-13 11:33:34,709 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 32.7917ms 304 application/javascript
+INFO  2020-04-13 11:33:34,738 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-04-13 11:33:34,744 [26   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/admin-lte/dist/js/adminlte.js was not modified
+INFO  2020-04-13 11:33:34,762 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=MEOC0fqxBbFCeeJ6VHFuw8-2C710gCRqjbvYcHoBdHU  
+INFO  2020-04-13 11:33:34,791 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 499.6521ms 200 application/x-javascript; charset=utf-8
+INFO  2020-04-13 11:33:34,871 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js was not modified
+INFO  2020-04-13 11:33:34,902 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 90.726ms 304 application/javascript
+INFO  2020-04-13 11:33:34,915 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 135.2834ms 304 application/javascript
+INFO  2020-04-13 11:33:34,941 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Users/ChangePassword.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\view-resources\Views\Users\ChangePassword.js'
+INFO  2020-04-13 11:33:34,958 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=Ta7OYgm62iNXMvVrH3f4y3WqUbGsHGBNvt0Zu0eIKtk  
+INFO  2020-04-13 11:33:34,972 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js?v=7OzpM5utNWYP8ne_218zbUCD3Xj_R1GqM6AzwpgQktg  
+INFO  2020-04-13 11:33:34,986 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 702.0021ms 200 application/javascript
+INFO  2020-04-13 11:33:34,996 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js was not modified
+INFO  2020-04-13 11:33:35,017 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=vMuHbqHh635SKL2RG2qsGGCDyHg1yFeGqhPKpS34g4k  
+INFO  2020-04-13 11:33:35,035 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js was not modified
+INFO  2020-04-13 11:33:35,043 [26   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js was not modified
+INFO  2020-04-13 11:33:35,084 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 143.9727ms 304 application/javascript
+INFO  2020-04-13 11:33:35,089 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 106.9344ms 304 application/javascript
+INFO  2020-04-13 11:33:35,105 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 140.9958ms 304 application/javascript
+INFO  2020-04-13 11:33:35,156 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.js?v=xLhce0FUawd11QSwrvXSwST0oHhOolNoH9cUXAcsIAg  
+INFO  2020-04-13 11:33:35,178 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.unobtrusive.js?v=XNNC8ESw29iopRLukVRazlP44TxnjGmEQanHJ5kHmtk  
+INFO  2020-04-13 11:33:35,209 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/jquery-validate/jquery.validate.js was not modified
+INFO  2020-04-13 11:33:35,224 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/jquery-validate/jquery.validate.unobtrusive.js was not modified
+INFO  2020-04-13 11:33:35,260 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/webfonts/fa-regular-400.woff2  
+INFO  2020-04-13 11:33:35,284 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/jquery.dataTables.min.js?v=LXQzPhL1IRyKkA7HpCOBi8I-OC8HqzHUYkjK8S-LKTs  
+INFO  2020-04-13 11:33:35,303 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-13 11:33:35,318 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/font-awesome/webfonts/fa-regular-400.woff2 was not modified
+INFO  2020-04-13 11:33:35,320 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 213.6565ms 304 application/javascript
+INFO  2020-04-13 11:33:35,335 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 227.1658ms 304 application/javascript
+INFO  2020-04-13 11:33:35,358 [26   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/datatables/js/jquery.dataTables.min.js was not modified
+INFO  2020-04-13 11:33:35,367 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 141.7427ms 304 font/woff2
+INFO  2020-04-13 11:33:35,373 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.bootstrap4.min.js?v=hJ44ymhBmRPJKIaKRf3DSX5uiFEZ9xB_qx8cNbJvIMU  
+INFO  2020-04-13 11:33:35,387 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 216.8809ms 304 application/javascript
+INFO  2020-04-13 11:33:35,409 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1151.2165ms 200 application/x-javascript
+INFO  2020-04-13 11:33:35,430 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=i3fsIGh0z3DXDbSa7f6TwsWonuZ8-OwELSrtH1jHbDA  
+INFO  2020-04-13 11:33:35,553 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/datatables/js/dataTables.bootstrap4.min.js was not modified
+INFO  2020-04-13 11:33:35,608 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/webfonts/fa-solid-900.woff2  
+INFO  2020-04-13 11:33:35,771 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js was not modified
+INFO  2020-04-13 11:33:35,873 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 214.5329ms 304 application/javascript
+INFO  2020-04-13 11:33:35,913 [26   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/font-awesome/webfonts/fa-solid-900.woff2 was not modified
+INFO  2020-04-13 11:33:35,982 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 425.438ms 304 application/javascript
+INFO  2020-04-13 11:33:36,001 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/push.js/push.js?v=p73-snCYhrDo9U6USD9P19LnY1EwAe4-VzQxj_kNyBE  
+INFO  2020-04-13 11:33:36,014 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 513.2089ms 304 font/woff2
+INFO  2020-04-13 11:33:36,019 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/signalr/dist/browser/signalr.js?v=s5ortbhB2C3h17nHMtXwbCSN9YncRIZH6XrFTSO9vmk  
+INFO  2020-04-13 11:33:36,024 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=djoKib6ssm5DDzbXLe5pD7ayfFg3siaoEk-BFYzQlvI  
+INFO  2020-04-13 11:33:36,057 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/push.js/push.js was not modified
+INFO  2020-04-13 11:33:36,088 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/signalr/dist/browser/signalr.js was not modified
+INFO  2020-04-13 11:33:36,100 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.responsive.min.js?v=7Tbik5KSODuGiOLIOFfhP47p5UK6h1wzw8CFSI_TKhc  
+INFO  2020-04-13 11:33:36,108 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 193.5473ms 304 application/javascript
+INFO  2020-04-13 11:33:36,110 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js was not modified
+INFO  2020-04-13 11:33:36,116 [26   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/datatables/js/dataTables.responsive.min.js was not modified
+INFO  2020-04-13 11:33:36,124 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 124.7088ms 304 application/javascript
+INFO  2020-04-13 11:33:36,131 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 125.4447ms 304 application/javascript
+INFO  2020-04-13 11:33:36,137 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 100.7928ms 304 application/javascript
+INFO  2020-04-13 11:33:36,164 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/localization/messages_pt_BR.min.js?v=XPVq9FOi0rZTuUUM1OBNwLj_HPADmvgTT-KSuoDqjjw  
+INFO  2020-04-13 11:33:36,196 [22   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/datatables/css/buttons.bootstrap4.min.css was not modified
+INFO  2020-04-13 11:33:36,246 [28   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/jquery-validate/localization/messages_pt_BR.min.js was not modified
+INFO  2020-04-13 11:33:36,268 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2358.7462ms 304 text/css
+INFO  2020-04-13 11:33:36,321 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 694.8414ms 304 application/javascript
+INFO  2020-04-13 11:33:36,328 [23   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/datatables/css/responsive.bootstrap4.min.css was not modified
+INFO  2020-04-13 11:33:36,364 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2486.1939ms 304 text/css
+INFO  2020-04-13 11:33:37,046 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate  0
+INFO  2020-04-13 11:33:37,078 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-04-13 11:33:37,097 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-04-13 11:33:37,119 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 203.8844ms 200 application/json
+INFO  2020-04-13 11:33:37,144 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=J3_kh8Jzuklrcw863RmFjA  
+INFO  2020-04-13 11:33:37,175 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-04-13 11:33:37,207 [26   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"J3_kh8Jzuklrcw863RmFjA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-04-13T11:33:37.2077657-03:00","Properties":{}}
+DEBUG 2020-04-13 11:33:37,208 [26   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: J3_kh8Jzuklrcw863RmFjA
+INFO  2020-04-13 11:33:57,301 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/User/ChangePassword application/json 85
+INFO  2020-04-13 11:33:57,333 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.Users.UserAppService.ChangePassword (Mkspec.SpectrendsApi.Application)'
+INFO  2020-04-13 11:33:57,357 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "ChangePassword", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Boolean] ChangePassword(Mkspec.SpectrendsApi.Users.Dto.ChangePasswordDto) on controller Mkspec.SpectrendsApi.Users.UserAppService (Mkspec.SpectrendsApi.Application).
+INFO  2020-04-13 11:33:58,178 [25   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-04-13 11:33:58,221 [25   ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.Users.UserAppService.ChangePassword (Mkspec.SpectrendsApi.Application) in 822.7446ms
+INFO  2020-04-13 11:33:58,234 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.Users.UserAppService.ChangePassword (Mkspec.SpectrendsApi.Application)'
+INFO  2020-04-13 11:33:58,240 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1011.4341ms 200 application/json; charset=utf-8
+INFO  2020-04-13 11:33:59,425 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-04-13 11:33:59,450 [25   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-04-13 11:33:59,456 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.Web.Controllers.HomeController.Index (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:33:59,465 [25   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller Mkspec.SpectrendsApi.Web.Controllers.HomeController (Mkspec.SpectrendsApi.Web.Mvc).
+INFO  2020-04-13 11:33:59,496 [30   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-04-13 11:33:59,782 [25   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 200.9323ms.
+INFO  2020-04-13 11:33:59,805 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.min.js?v=yNbKY1y6h2rbVcQtf0b8lq4a-xpktyFc3pSYoGAY1qQ  
+INFO  2020-04-13 11:33:59,813 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/sweetalert/sweetalert.min.js?v=KsRuvuRtUVvobe66OFtOQfjP8WA2SzYsmm4VPfMnxms  
+INFO  2020-04-13 11:33:59,861 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/moment/moment-with-locales.js?v=dgFbqbQVzjkZPQxWd8PBtzGiRBhChc4I2wO_q_s-Xeo  
+INFO  2020-04-13 11:33:59,929 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/block-ui/jquery.blockUI.js?v=oQaw-JJuUcJQ9QVYMcFnPxICDT-hv8-kuxT2FNzTGhc  
+INFO  2020-04-13 11:33:59,936 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/sweetalert/sweetalert.min.js was not modified
+INFO  2020-04-13 11:34:00,020 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/moment/moment-with-locales.js was not modified
+INFO  2020-04-13 11:34:00,281 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/block-ui/jquery.blockUI.js was not modified
+INFO  2020-04-13 11:34:00,403 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 256.4301ms 304 application/javascript
+INFO  2020-04-13 11:34:00,494 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 261.7708ms 304 application/javascript
+INFO  2020-04-13 11:34:00,624 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 583.6574ms 304 application/javascript
+INFO  2020-04-13 11:34:00,627 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637223740489504039  
+INFO  2020-04-13 11:34:00,634 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/chartjs/dist/Chart.js?v=nZaxPHA2uAaquixjSDX19TmIlbRNCOrf5HO1oHl5p70  
+INFO  2020-04-13 11:34:00,651 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637223740489504039  
+INFO  2020-04-13 11:34:00,655 [26   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/toastr/toastr.min.js was not modified
+INFO  2020-04-13 11:34:00,667 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/chartjs/dist/Chart.js was not modified
+INFO  2020-04-13 11:34:00,682 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 886.5143ms 304 application/javascript
+INFO  2020-04-13 11:34:00,688 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/spin/spin.js?v=GySbz3oZXNlwoawo5PpYy0iM38B-q3jyi_HLw00uxy0  
+INFO  2020-04-13 11:34:00,697 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+DEBUG 2020-04-13 11:34:00,706 [26   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: J3_kh8Jzuklrcw863RmFjA
+INFO  2020-04-13 11:34:00,708 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 136.1647ms 304 application/javascript
+INFO  2020-04-13 11:34:00,710 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-13 11:34:00,730 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-04-13 11:34:00,736 [30   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/spin/spin.js was not modified
+INFO  2020-04-13 11:34:00,751 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-04-13 11:34:00,771 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-04-13 11:34:00,803 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 967.5333ms 304 application/javascript
+INFO  2020-04-13 11:34:00,807 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-04-13 11:34:00,811 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 23671.8442ms 101 
+INFO  2020-04-13 11:34:00,821 [25   ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.Web.Controllers.HomeController.Index (Mkspec.SpectrendsApi.Web.Mvc) in 319.9049ms
+INFO  2020-04-13 11:34:00,826 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 34.2883ms
+INFO  2020-04-13 11:34:00,831 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.Web.Controllers.HomeController.Index (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:34:00,834 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-13 11:34:00,841 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1410.4284ms 200 text/html; charset=utf-8
+INFO  2020-04-13 11:34:00,860 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 209.0481ms 200 application/x-javascript
+INFO  2020-04-13 11:34:00,862 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.css?v=He3QEBKoL_nMXlVsoM7S2C2kjFQqS5L-mgA-F8LpG-U  
+INFO  2020-04-13 11:34:00,888 [24   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/toastr/toastr.css was not modified
+INFO  2020-04-13 11:34:01,344 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1107.0681ms 304 text/css
+INFO  2020-04-13 11:34:01,493 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-04-13 11:34:01,542 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 635.81ms
+INFO  2020-04-13 11:34:01,542 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate  0
+INFO  2020-04-13 11:34:01,597 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-04-13 11:34:01,605 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-04-13 11:34:01,619 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1137.6938ms 200 application/x-javascript; charset=utf-8
+INFO  2020-04-13 11:34:01,624 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-04-13 11:34:01,635 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 123.77ms 200 application/json
+INFO  2020-04-13 11:34:01,746 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=YH3pl6aejsr2aX4PKAuV6g  
+INFO  2020-04-13 11:34:02,082 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-04-13 11:34:02,234 [25   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"YH3pl6aejsr2aX4PKAuV6g","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-04-13T11:34:02.2340203-03:00","Properties":{}}
+DEBUG 2020-04-13 11:34:02,235 [25   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: YH3pl6aejsr2aX4PKAuV6g
+INFO  2020-04-13 11:34:08,963 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Account/Logout  
+INFO  2020-04-13 11:34:08,984 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.Web.Controllers.AccountController.Logout (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:34:09,006 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Logout", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Logout() on controller Mkspec.SpectrendsApi.Web.Controllers.AccountController (Mkspec.SpectrendsApi.Web.Mvc).
+INFO  2020-04-13 11:34:09,081 [7    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed out.
+INFO  2020-04-13 11:34:09,097 [7    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.External signed out.
+INFO  2020-04-13 11:34:09,102 [7    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.TwoFactorUserId signed out.
+INFO  2020-04-13 11:34:09,167 [24   ] ft.AspNetCore.Mvc.RedirectToActionResult - Executing RedirectResult, redirecting to /Account/Login.
+INFO  2020-04-13 11:34:09,172 [24   ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.Web.Controllers.AccountController.Logout (Mkspec.SpectrendsApi.Web.Mvc) in 162.2475ms
+INFO  2020-04-13 11:34:09,177 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.Web.Controllers.AccountController.Logout (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:34:09,195 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 221.228ms 302 
+INFO  2020-04-13 11:34:09,201 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login  
+INFO  2020-04-13 11:34:09,208 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.Web.Controllers.AccountController.Login (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:34:09,225 [25   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller Mkspec.SpectrendsApi.Web.Controllers.AccountController (Mkspec.SpectrendsApi.Web.Mvc).
+INFO  2020-04-13 11:34:09,261 [8    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2020-04-13 11:34:09,415 [8    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 28.7895ms.
+DEBUG 2020-04-13 11:34:09,468 [25   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: YH3pl6aejsr2aX4PKAuV6g
+INFO  2020-04-13 11:34:09,473 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.Web.Controllers.AccountController.Login (Mkspec.SpectrendsApi.Web.Mvc) in 189.104ms
+INFO  2020-04-13 11:34:09,480 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637223740489504039  
+INFO  2020-04-13 11:34:09,996 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637223740489504039  
+INFO  2020-04-13 11:34:10,075 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.Web.Controllers.AccountController.Login (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:34:10,082 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-13 11:34:10,097 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-04-13 11:34:10,146 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 889.4296ms 200 text/html; charset=utf-8
+INFO  2020-04-13 11:34:10,170 [26   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-04-13 11:34:10,234 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-04-13 11:34:10,303 [26   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-04-13 11:34:10,311 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-04-13 11:34:10,327 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637223744492848468  
+INFO  2020-04-13 11:34:10,341 [26   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 141.7849ms
+INFO  2020-04-13 11:34:10,346 [30   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-04-13 11:34:10,360 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-13 11:34:10,399 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8598.9637ms 101 
+INFO  2020-04-13 11:34:10,522 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 907.891ms 200 application/x-javascript
+INFO  2020-04-13 11:34:10,606 [30   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 121.6363ms
+INFO  2020-04-13 11:34:10,772 [24   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2020-04-13 11:34:10,868 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-04-13 11:34:10,871 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1329.2306ms 200 application/javascript
+INFO  2020-04-13 11:34:10,878 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1415.9464ms 200 application/x-javascript; charset=utf-8
+INFO  2020-04-13 11:34:14,687 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 273
+INFO  2020-04-13 11:34:14,698 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.Web.Controllers.AccountController.Login (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:34:14,899 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] Login(Mkspec.SpectrendsApi.Web.Models.Account.LoginViewModel, System.String, System.String) on controller Mkspec.SpectrendsApi.Web.Controllers.AccountController (Mkspec.SpectrendsApi.Web.Mvc).
+WARN  2020-04-13 11:34:15,270 [24   ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 1.
+WARN  2020-04-13 11:34:26,545 [24   ] Mvc.ExceptionHandling.AbpExceptionFilter - Falha no login!
+Abp.UI.UserFriendlyException: Falha no login!
+   at Mkspec.SpectrendsApi.Web.Controllers.AccountController.GetLoginResultAsync(String usernameOrEmailAddress, String password, String tenancyName) in C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\Controllers\AccountController.cs:line 127
+   at Mkspec.SpectrendsApi.Web.Controllers.AccountController.Login(LoginViewModel loginModel, String returnUrl, String returnUrlHash) in C:\Users\marco_b0hr8ab\source\repos\spectrends-api\aspnet-core\src\Mkspec.SpectrendsApi.Web.Mvc\Controllers\AccountController.cs:line 104
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-04-13 11:34:26,567 [24   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-04-13 11:34:26,581 [24   ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.Web.Controllers.AccountController.Login (Mkspec.SpectrendsApi.Web.Mvc) in 11674.4989ms
+INFO  2020-04-13 11:34:26,590 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.Web.Controllers.AccountController.Login (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:34:26,595 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 12033.5625ms 500 application/json; charset=utf-8
+INFO  2020-04-13 11:34:31,640 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 275
+INFO  2020-04-13 11:34:31,650 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.Web.Controllers.AccountController.Login (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:34:31,686 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] Login(Mkspec.SpectrendsApi.Web.Models.Account.LoginViewModel, System.String, System.String) on controller Mkspec.SpectrendsApi.Web.Controllers.AccountController (Mkspec.SpectrendsApi.Web.Mvc).
+INFO  2020-04-13 11:34:31,939 [8    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2020-04-13 11:34:31,972 [8    ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-04-13 11:34:31,978 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.Web.Controllers.AccountController.Login (Mkspec.SpectrendsApi.Web.Mvc) in 287.4701ms
+INFO  2020-04-13 11:34:31,981 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.Web.Controllers.AccountController.Login (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:34:31,985 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 345.2003ms 200 application/json; charset=utf-8
+INFO  2020-04-13 11:34:32,030 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-04-13 11:34:32,058 [7    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-04-13 11:34:32,064 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.Web.Controllers.HomeController.Index (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:34:32,092 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller Mkspec.SpectrendsApi.Web.Controllers.HomeController (Mkspec.SpectrendsApi.Web.Mvc).
+INFO  2020-04-13 11:34:32,246 [24   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-04-13 11:34:32,534 [24   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 272.5675ms.
+INFO  2020-04-13 11:34:32,538 [24   ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.Web.Controllers.HomeController.Index (Mkspec.SpectrendsApi.Web.Mvc) in 442.5035ms
+INFO  2020-04-13 11:34:32,575 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.Web.Controllers.HomeController.Index (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:34:32,591 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 553.8623ms 200 text/html; charset=utf-8
+INFO  2020-04-13 11:34:32,679 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637223740489504039  
+INFO  2020-04-13 11:34:32,681 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637223740489504039  
+INFO  2020-04-13 11:34:32,707 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-04-13 11:34:32,716 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-13 11:34:32,743 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-04-13 11:34:32,759 [24   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-04-13 11:34:32,772 [24   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-04-13 11:34:32,782 [24   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 13.6693ms
+INFO  2020-04-13 11:34:32,794 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-13 11:34:32,798 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 125.0416ms 200 application/x-javascript
+INFO  2020-04-13 11:34:32,881 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-04-13 11:34:32,909 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 139.3532ms
+INFO  2020-04-13 11:34:32,915 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-04-13 11:34:32,920 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 240.4041ms 200 application/x-javascript; charset=utf-8
+INFO  2020-04-13 11:34:33,290 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate  0
+INFO  2020-04-13 11:34:33,378 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-04-13 11:34:33,436 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-04-13 11:34:33,447 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 196.8817ms 200 application/json
+INFO  2020-04-13 11:34:33,575 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=tyuk9SEWe7Eva04_mK_EaA  
+INFO  2020-04-13 11:34:33,619 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-04-13 11:34:33,667 [9    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"tyuk9SEWe7Eva04_mK_EaA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-04-13T11:34:33.6674283-03:00","Properties":{}}
+DEBUG 2020-04-13 11:34:33,680 [9    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: tyuk9SEWe7Eva04_mK_EaA
+INFO  2020-04-13 11:34:45,595 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/About  
+INFO  2020-04-13 11:34:45,614 [8    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-04-13 11:34:45,618 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.Web.Controllers.AboutController.Index (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:34:45,629 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "About", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller Mkspec.SpectrendsApi.Web.Controllers.AboutController (Mkspec.SpectrendsApi.Web.Mvc).
+INFO  2020-04-13 11:34:45,696 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-04-13 11:34:46,863 [26   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 1181.1432ms.
+DEBUG 2020-04-13 11:34:46,913 [9    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: tyuk9SEWe7Eva04_mK_EaA
+INFO  2020-04-13 11:34:46,918 [26   ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.Web.Controllers.AboutController.Index (Mkspec.SpectrendsApi.Web.Mvc) in 1234.6231ms
+INFO  2020-04-13 11:34:46,922 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-04-13 11:34:46,927 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.Web.Controllers.AboutController.Index (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:34:46,938 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13350.7288ms 101 
+INFO  2020-04-13 11:34:46,943 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1340.6744ms 200 text/html; charset=utf-8
+INFO  2020-04-13 11:34:47,027 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637223740489504039  
+INFO  2020-04-13 11:34:47,055 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-13 11:34:47,104 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637223740489504039  
+INFO  2020-04-13 11:34:47,127 [26   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-04-13 11:34:47,138 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-04-13 11:34:47,170 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-04-13 11:34:47,234 [26   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-04-13 11:34:47,374 [26   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 110.0425ms
+INFO  2020-04-13 11:34:47,417 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-04-13 11:34:47,430 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-13 11:34:47,455 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 257.2633ms
+INFO  2020-04-13 11:34:47,457 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 420.4043ms 200 application/x-javascript
+INFO  2020-04-13 11:34:47,461 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-04-13 11:34:47,482 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 413.2799ms 200 application/x-javascript; charset=utf-8
+INFO  2020-04-13 11:34:47,640 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate  0
+INFO  2020-04-13 11:34:47,694 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-04-13 11:34:47,719 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-04-13 11:34:47,723 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 82.2885ms 200 application/json
+INFO  2020-04-13 11:34:47,797 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=I_ILKc8q-M4hSbTqTfsRfg  
+INFO  2020-04-13 11:34:47,857 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-04-13 11:34:47,886 [21   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"I_ILKc8q-M4hSbTqTfsRfg","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-04-13T11:34:47.8863197-03:00","Properties":{}}
+DEBUG 2020-04-13 11:34:47,888 [21   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: I_ILKc8q-M4hSbTqTfsRfg
+INFO  2020-04-13 11:34:50,018 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+INFO  2020-04-13 11:34:50,031 [7    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-04-13 11:34:50,034 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.Web.Controllers.UsersController.Index (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:34:50,040 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Users", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Index() on controller Mkspec.SpectrendsApi.Web.Controllers.UsersController (Mkspec.SpectrendsApi.Web.Mvc).
+INFO  2020-04-13 11:34:50,079 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+DEBUG 2020-04-13 11:34:50,263 [26   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: I_ILKc8q-M4hSbTqTfsRfg
+INFO  2020-04-13 11:34:50,269 [21   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 88.2572ms.
+INFO  2020-04-13 11:34:50,308 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-04-13 11:34:50,312 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2519.9456ms 101 
+INFO  2020-04-13 11:34:50,327 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637223740489504039  
+INFO  2020-04-13 11:34:50,348 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637223740489504039  
+INFO  2020-04-13 11:34:50,354 [21   ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.Web.Controllers.UsersController.Index (Mkspec.SpectrendsApi.Web.Mvc) in 229.186ms
+INFO  2020-04-13 11:34:50,361 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-13 11:34:50,375 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.Web.Controllers.UsersController.Index (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:34:50,381 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-04-13 11:34:50,464 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-04-13 11:34:50,492 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-04-13 11:34:50,500 [25   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-04-13 11:34:50,514 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 361.4505ms 200 text/html; charset=utf-8
+INFO  2020-04-13 11:34:50,535 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 93.245ms
+INFO  2020-04-13 11:34:50,545 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-13 11:34:50,559 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 275.2701ms 200 application/x-javascript
+INFO  2020-04-13 11:34:50,600 [25   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-04-13 11:34:50,615 [25   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 100.8185ms
+INFO  2020-04-13 11:34:50,630 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-04-13 11:34:50,641 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 348.8235ms 200 application/x-javascript; charset=utf-8
+INFO  2020-04-13 11:34:50,990 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate  0
+INFO  2020-04-13 11:34:51,155 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-04-13 11:34:51,183 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-04-13 11:34:51,207 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 297.1758ms 200 application/json
+INFO  2020-04-13 11:34:51,639 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=57cDkIeftr2BGS_659ur-Q  
+INFO  2020-04-13 11:34:51,641 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/User/GetAll?keyword=&skipCount=0&maxResultCount=10 application/json 
+INFO  2020-04-13 11:34:51,669 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-04-13 11:34:51,682 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.Users.UserAppService.GetAllAsync (Mkspec.SpectrendsApi.Application)'
+INFO  2020-04-13 11:34:51,765 [25   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[Mkspec.SpectrendsApi.Users.Dto.UserDto]] GetAllAsync(Mkspec.SpectrendsApi.Users.Dto.PagedUserResultRequestDto) on controller Mkspec.SpectrendsApi.Users.UserAppService (Mkspec.SpectrendsApi.Application).
+DEBUG 2020-04-13 11:34:51,774 [9    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"57cDkIeftr2BGS_659ur-Q","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-04-13T11:34:51.7740119-03:00","Properties":{}}
+DEBUG 2020-04-13 11:34:51,775 [9    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 57cDkIeftr2BGS_659ur-Q
+INFO  2020-04-13 11:34:51,846 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Roles  
+INFO  2020-04-13 11:34:51,885 [9    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-04-13 11:34:51,894 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.Web.Controllers.RolesController.Index (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:34:51,904 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Roles", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller Mkspec.SpectrendsApi.Web.Controllers.RolesController (Mkspec.SpectrendsApi.Web.Mvc).
+INFO  2020-04-13 11:34:51,958 [26   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-04-13 11:34:52,389 [26   ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.Users.UserAppService.GetAllAsync (Mkspec.SpectrendsApi.Application) in 217.3876ms
+INFO  2020-04-13 11:34:52,526 [25   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-04-13 11:34:52,770 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.Users.UserAppService.GetAllAsync (Mkspec.SpectrendsApi.Application)'
+INFO  2020-04-13 11:34:52,913 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1140.5895ms 200 application/json; charset=utf-8
+DEBUG 2020-04-13 11:34:53,518 [26   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 57cDkIeftr2BGS_659ur-Q
+INFO  2020-04-13 11:34:53,524 [25   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 1268.9006ms.
+INFO  2020-04-13 11:34:53,533 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-04-13 11:34:53,536 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637223740489504039  
+INFO  2020-04-13 11:34:53,558 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637223740489504039  
+INFO  2020-04-13 11:34:53,602 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1974.6009ms 101 
+INFO  2020-04-13 11:34:53,615 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-13 11:34:53,654 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-04-13 11:34:53,714 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-04-13 11:34:53,758 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-04-13 11:34:53,806 [30   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-04-13 11:34:54,171 [25   ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.Web.Controllers.RolesController.Index (Mkspec.SpectrendsApi.Web.Mvc) in 1620.723ms
+INFO  2020-04-13 11:34:54,421 [30   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 412.3801ms
+INFO  2020-04-13 11:34:54,434 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.Web.Controllers.RolesController.Index (Mkspec.SpectrendsApi.Web.Mvc)'
+INFO  2020-04-13 11:34:54,476 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-04-13 11:34:54,487 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-04-13 11:34:54,577 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2613.7089ms 200 text/html; charset=utf-8
+INFO  2020-04-13 11:34:54,721 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 717.3654ms
+INFO  2020-04-13 11:34:54,978 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 958.4153ms 200 application/x-javascript
+INFO  2020-04-13 11:34:55,086 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-04-13 11:34:55,124 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/Role/GetAll?keyword=&skipCount=0&maxResultCount=10 application/json 
+INFO  2020-04-13 11:34:55,132 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1555.5075ms 200 application/x-javascript; charset=utf-8
+INFO  2020-04-13 11:34:55,136 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate  0
+INFO  2020-04-13 11:34:55,158 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-04-13 11:34:55,169 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Mkspec.SpectrendsApi.Roles.RoleAppService.GetAllAsync (Mkspec.SpectrendsApi.Application)'
+INFO  2020-04-13 11:34:55,184 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-04-13 11:34:55,192 [25   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[Mkspec.SpectrendsApi.Roles.Dto.RoleDto]] GetAllAsync(Mkspec.SpectrendsApi.Roles.Dto.PagedRoleResultRequestDto) on controller Mkspec.SpectrendsApi.Roles.RoleAppService (Mkspec.SpectrendsApi.Application).
+INFO  2020-04-13 11:34:55,198 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 970.7123ms 200 application/json
+INFO  2020-04-13 11:34:55,211 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=hplfxm0YaRnuVhK92dh3dQ  
+INFO  2020-04-13 11:34:55,236 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-04-13 11:34:55,284 [25   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"hplfxm0YaRnuVhK92dh3dQ","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2020-04-13T11:34:55.2829532-03:00","Properties":{}}
+DEBUG 2020-04-13 11:34:55,287 [25   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: hplfxm0YaRnuVhK92dh3dQ
+INFO  2020-04-13 11:34:55,365 [19   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-04-13 11:34:55,378 [19   ] c.Infrastructure.ControllerActionInvoker - Executed action Mkspec.SpectrendsApi.Roles.RoleAppService.GetAllAsync (Mkspec.SpectrendsApi.Application) in 180.5191ms
+INFO  2020-04-13 11:34:55,598 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Mkspec.SpectrendsApi.Roles.RoleAppService.GetAllAsync (Mkspec.SpectrendsApi.Application)'
+INFO  2020-04-13 11:34:55,909 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 575.7297ms 200 application/json; charset=utf-8
