@@ -7,7 +7,7 @@ $oldCompanyName="Mkspec"
 $newCompanyName="YourCompanyName"
 
 # project name placeholder
-$oldProjectName="SpectrendsApi"
+$oldProjectName="Spectrends"
 # your project name
 $newProjectName="YourProjectName"
 
