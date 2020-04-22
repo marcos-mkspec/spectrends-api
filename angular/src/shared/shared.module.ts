@@ -151,7 +151,7 @@ import { EqualValidator } from './directives/equal-validator.directive';
     ]
 })
 export class SharedModule {
-    static forRoot(): ModuleWithProviders {
+    static forRoot(): ModuleWithProviders<SharedModule> {
         return {
             ngModule: SharedModule,
             providers: [
